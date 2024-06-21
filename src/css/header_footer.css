@@ -1,0 +1,28 @@
+/* Header.css */
+.header {
+  background-color: #b6d109;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.header h2 {
+  color: #343a40;
+  font-family: "Arial", sans-serif;
+}
+
+/* Footer.css */
+.footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer h2 {
+  color: #333;
+  font-family: "Arial", sans-serif;
+}
