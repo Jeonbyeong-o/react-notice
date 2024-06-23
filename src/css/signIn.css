@@ -1,0 +1,55 @@
+/* SignIn.css */
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.signin-box {
+  background-color: white;
+  padding: 40px; /* padding을 늘려서 더 큰 공간 제공 */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px; /* width를 늘려서 더 큰 공간 제공 */
+}
+
+.input-field {
+  margin-bottom: 20px; /* margin을 늘려서 요소 간 간격을 넓힘 */
+}
+
+.input-field input {
+  width: calc(100% - 20px); /* padding을 고려하여 width 조정 */
+  padding: 15px; /* padding을 늘려서 더 큰 입력 필드 제공 */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.input-field input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.button-field {
+  display: flex;
+  justify-content: center;
+}
+
+.button-field button {
+  width: 100%;
+  padding: 15px; /* padding을 늘려서 더 큰 버튼 제공 */
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 18px; /* 폰트 크기 증가 */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-field button:hover {
+  background-color: #0056b3;
+}
