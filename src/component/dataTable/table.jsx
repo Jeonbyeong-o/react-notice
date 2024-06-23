@@ -1,3 +1,4 @@
+import "../../css/table.css";
 import { Data } from "../util/tableData";
 export default function Table() {
   const impData = Data;
